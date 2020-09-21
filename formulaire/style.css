@@ -8,6 +8,8 @@ form
 {
 	margin-top: 30vh;
 	margin-left: 10vw;
+	margin-right: 10vw;
+	text-align: left;
 }
 #logo {
 
@@ -25,4 +27,12 @@ form
 {
 	border: none;
 	border-bottom: crimson;
+}
+.btn-outline-danger
+{
+	border-radius: 0;
+}
+svg
+{
+	width: 50px;
 }
