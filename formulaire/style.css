@@ -1,4 +1,26 @@
+body {
+	background-image: url(./../img/fond.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+form {
+	margin-top: 30vh;
+	margin-left: 10vw;
+}
+
 #logo {
 	height: 80px;
 	width: 200px;
+}
+
+.form-control {
+	border: none;
+	border-bottom: 2px red solid;
+	border-radius: 0;
+	background-color: #c9c9c901;
+}
+
+.form-control:focus {
+	border: none;
+	border-bottom: crimson;
 }
