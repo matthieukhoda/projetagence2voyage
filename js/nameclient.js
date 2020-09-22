@@ -1,5 +1,5 @@
 let btnNext = document.getElementById('btn_next');
-let inputPass = document.getElementById('inputPassenger');
+let inputPass = document.getElementById('inputPassager');
 let inputChild = document.getElementById('inputChildren');
 let children = document.getElementById('children');
 let passenger = document.getElementById('passenger');
@@ -12,7 +12,7 @@ btnNext.addEventListener('click', () => {
     console.log(nmbChildren);
 
     if (nmbChildren > 0 && nmbPassenger == 0) {
-        alert("Nous n'acceptons pas que les enfants voyage seul.");
+        alert("Nous n'acceptons pas que les enfants voyagent seul.");
     }
     else if (nmbPassenger === 0) {
         alert('Aucun passager');
@@ -64,7 +64,7 @@ function addPassenger() {
 
 
 
-    document.getElementById('passenger').appendChild(newDiv);
+    document.getElementById('passager').appendChild(newDiv);
     document.getElementById(x).appendChild(oneInput);
     document.getElementById(x).appendChild(twoInput);
 }
