@@ -12,7 +12,7 @@ btnNext.addEventListener('click', () => {
     console.log(nmbChildren);
 
     if (nmbChildren > 0 && nmbPassenger == 0) {
-        alert("Nous n'acceptons pas que les enfants voyagent seul.");
+        alert("Nous n'acceptons pas que les enfants qui voyagent seul.");
     }
     else if (nmbPassenger === 0) {
         alert('Aucun passager');
