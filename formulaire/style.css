@@ -4,13 +4,15 @@ body {
 	background-size: cover;
 }
 form {
-	margin-top: 30vh;
+	margin-top: 7vh;
 	margin-left: 10vw;
 }
 
 #logo {
-	height: 80px;
-	width: 200px;
+	height: 200px;
+	width: 350px;
+	background-image: url(./img/logo.svg);
+	background-repeat: no-repeat;
 }
 
 .form-control {
