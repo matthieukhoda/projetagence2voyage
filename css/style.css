@@ -1,5 +1,5 @@
 body {
-	background-image: url(./img/fond.svg);
+	background-image: url(./IMG/fond.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -21,7 +21,7 @@ svg {
 #logo {
 	height: 200px;
 	width: 350px;
-	background-image: url(./img/logo.svg);
+	background-image: url(./IMG/logo.svg);
 	background-repeat: no-repeat;
 }
 
