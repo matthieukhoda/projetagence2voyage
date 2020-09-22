@@ -42,12 +42,12 @@ svg {
 	width: 190px;
 }
 
-#adult {
+#inputPassager {
 	margin-left: -1vh;
 	width: 100px;
 }
 
-#child {
+#inputChildren {
 	margin-left: -15vh;
 	width: 100px;
 }
@@ -75,4 +75,8 @@ svg {
 
 #recap {
 	margin-top: 1vh;
+}
+
+.hidden{
+	display: none;
 }
