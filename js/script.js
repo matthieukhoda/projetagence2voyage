@@ -3,9 +3,9 @@ var departure_date = document.getElementById('departure-date');
 var return_date = document.getElementById('return-date');
 
 
-//erase both airport inputs
-document.getElementById('departure-airport').value = "";
-document.getElementById('arrival-airport').value = "";
+// //erase both airport inputs
+// document.getElementById('departure-airport').value = "";
+// document.getElementById('arrival-airport').value = "";
 
 //erase both date inputs
 departure_date.value = "";

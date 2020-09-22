@@ -6,6 +6,7 @@ let passenger = document.getElementById('passenger');
 
 
 btnNext.addEventListener('click', () => {
+    console.log("allo");
     let nmbPassenger = inputPass.value;
     let nmbChildren = inputChild.value;
     console.log(nmbPassenger);
