@@ -65,7 +65,7 @@ function addPassenger() {
 
 
 
-    document.getElementById('passager').appendChild(newDiv);
+    document.getElementById('passenger').appendChild(newDiv);
     document.getElementById(x).appendChild(oneInput);
     document.getElementById(x).appendChild(twoInput);
 }

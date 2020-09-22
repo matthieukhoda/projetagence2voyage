@@ -80,3 +80,8 @@ svg {
 .hidden{
 	display: none;
 }
+#sectionDeux
+{
+	margin-top: 30vh;
+	margin-left: 10vw;
+}
