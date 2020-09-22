@@ -20,7 +20,26 @@ section {
 	background-color: #c9c9c901;
 }
 
+
 .form-control:focus {
 	border: none;
 	border-bottom: crimson;
+}
+	.hidden
+{
+	display: none;
+}
+.newInput
+{
+	margin: 1vh;
+}
+.addPlace
+{
+	margin-bottom: 1vh;
+	border-bottom: crimson 1px solid;
+	width: 20vw;
+}
+#recap
+{
+	margin-top: 1vh;
 }

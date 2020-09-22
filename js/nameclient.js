@@ -72,19 +72,26 @@ function addChildren() {
     let newDiv = document.createElement('div');
     let oneInput = document.createElement('input');
     let twoInput = document.createElement('input');
+    let troisInput = document.createElement('input');
+
     newDiv.id = y + 1000;
+
     oneInput.setAttribute('type', 'text');
     twoInput.setAttribute('type', 'text');
+    troisInput.setAttribute('type', 'date');
 
     oneInput.setAttribute('placeholder', 'Nom');
     twoInput.setAttribute('placeholder', 'Prénom');
+    troisInput.setAttribute('placeholder', 'Date de naissance');
 
     oneInput.classList.add('newInput');
     twoInput.classList.add('newInput');
+    troisInput.classList.add('nexInput');
 
 
 
     document.getElementById('children').appendChild(newDiv);
     document.getElementById(y + 1000).appendChild(oneInput);
     document.getElementById(y + 1000).appendChild(twoInput);
+    document.getElementById(y + 1000).appendChild(troisInput);
 }
